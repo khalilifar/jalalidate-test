@@ -6,10 +6,10 @@ import * as moment from 'jalali-moment';
   styleUrls: ['./date.component.scss'],
 })
 export class DateComponent implements OnInit {
-  // dateObject = moment('1395-11-22', 'jYYYY,jMM,jDD'); // this causes below error
+  dateObject = moment('1395-11-22', 'jYYYY,jMM,jDD'); // this causes below error
   // ERROR Error: Uncaught (in promise): TypeError: Cannot read property 'calSystem' of undefined
 
-  dateObject: any;
+  // dateObject: any;
   constructor() {}
 
   ngOnInit(): void {}
